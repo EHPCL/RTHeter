@@ -1,0 +1,36 @@
+site_name: RTHeter Documentation
+site_description: A Simulator for Real-Time Scheduling on Heterogeneous Architectures
+site_url: https://github.com/EHPCL/RTHeter/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  #features:
+  #  - navigation.instant
+  #  - navigation.tabs
+  #  - navigation.tabs.sticky
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Basic Usage: basic_usage.md
+  - Case Studies: case_studies.md
+  - API Reference: api.md
+  - About:
+      - Citation: about.md#citation
+      - Contributors: about.md#contributors
+
+repo_url: https://github.com/EHPCL/RTHeter/
+edit_uri: blob/main/docs/docs/
+
+plugins:
+  - search
