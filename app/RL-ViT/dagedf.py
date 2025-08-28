@@ -161,10 +161,13 @@ class DAGEDFScheduler(object):
         # perform schedule until fail or success
         terminate = False
 
+        typeDict = {0: "CPU", 7: "GPU"}
+
         while (not terminate):
             time, proc_state, task_states, request = self.state
             if self.verbose:
-                print(f"Time Stamp {time}, Request: {request}")
+                print(f"Time Stamp {time}, Scheduling Request, type: {typeDict[request[0]]}, index: {request[1]}, count: {request[2]}")
+        
             self.check_queue(request[0])
             for i in range(request[2]):
                 if self.queue == []:
@@ -182,15 +185,6 @@ class DAGEDFScheduler(object):
                     from os import system
                     system('clear')
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-
                 # no reservation
                 self.state, reward, terminate, _ = self.env.step(seg[0], seg[1])
                 self.trajectory.append((time,(seg[0], seg[1])))

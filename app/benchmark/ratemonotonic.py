@@ -77,5 +77,5 @@ class RateMonotonicScheduler:
     
 if __name__ == "__main__":
     
-    sche = RateMonotonicScheduler(31412, uti=2.0)
+    sche = RateMonotonicScheduler(31412, uti=4.0)
     print(sche.simulate())
