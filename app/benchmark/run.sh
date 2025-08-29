@@ -106,7 +106,7 @@ python ./driver.py -algo rm -u 18 -c 2 -e 1 -g 2 -o c2e1g2u18.csv & \
 python ./driver.py -algo rm -u 19 -c 2 -e 1 -g 2 -o c2e1g2u19.csv & \
 python ./driver.py -algo rm -u 20 -c 2 -e 1 -g 2 -o c2e1g2u20.csv & \
 python ./driver.py -algo rm -u 21 -c 2 -e 1 -g 2 -o c2e1g2u21.csv & \
-python ./driver.py -algo rm -u 22 -c 2 -e 1 -g 2 -o c2e1g2u22.csv & \
+python ./driver.py -algo rm -u 22 -c 2 -e 1 -g 2 -o c2e1g2u22.csv 
 python ./driver.py -algo rm -u 23 -c 2 -e 1 -g 2 -o c2e1g2u23.csv & \
 python ./driver.py -algo rm -u 24 -c 2 -e 1 -g 2 -o c2e1g2u24.csv & \
 python ./driver.py -algo rm -u 25 -c 2 -e 1 -g 2 -o c2e1g2u25.csv & \
@@ -118,7 +118,7 @@ python ./driver.py -algo rm -u 30 -c 2 -e 1 -g 2 -o c2e1g2u30.csv & \
 python ./driver.py -algo rm -u 31 -c 2 -e 1 -g 2 -o c2e1g2u31.csv & \
 python ./driver.py -algo rm -u 32 -c 2 -e 1 -g 2 -o c2e1g2u32.csv & \
 python ./driver.py -algo rm -u 33 -c 2 -e 1 -g 2 -o c2e1g2u33.csv & \
-python ./driver.py -algo rm -u 34 -c 2 -e 1 -g 2 -o c2e1g2u34.csv 
+python ./driver.py -algo rm -u 34 -c 2 -e 1 -g 2 -o c2e1g2u34.csv & \
 python ./driver.py -algo rm -u 15 -c 2 -e 3 -g 2 -o c2e3g2u15.csv & \
 python ./driver.py -algo rm -u 16 -c 2 -e 3 -g 2 -o c2e3g2u16.csv & \
 python ./driver.py -algo rm -u 17 -c 2 -e 3 -g 2 -o c2e3g2u17.csv & \
@@ -214,7 +214,7 @@ python ./driver.py -algo rm -u 26 -c 2 -e 2 -g 3 -o c2e2g3u26.csv & \
 python ./driver.py -algo rm -u 27 -c 2 -e 2 -g 3 -o c2e2g3u27.csv & \
 python ./driver.py -algo rm -u 28 -c 2 -e 2 -g 3 -o c2e2g3u28.csv & \
 python ./driver.py -algo rm -u 29 -c 2 -e 2 -g 3 -o c2e2g3u29.csv & \
-python ./driver.py -algo rm -u 30 -c 2 -e 2 -g 3 -o c2e2g3u30.csv & \
+python ./driver.py -algo rm -u 30 -c 2 -e 2 -g 3 -o c2e2g3u30.csv 
 python ./driver.py -algo rm -u 31 -c 2 -e 2 -g 3 -o c2e2g3u31.csv & \
 python ./driver.py -algo rm -u 32 -c 2 -e 2 -g 3 -o c2e2g3u32.csv & \
 python ./driver.py -algo rm -u 33 -c 2 -e 2 -g 3 -o c2e2g3u33.csv & \

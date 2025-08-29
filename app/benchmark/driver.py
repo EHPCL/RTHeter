@@ -9,10 +9,10 @@ def parse_args(description):
     parser = ArgumentParser(description=description)
     parser.add_argument("-n", type=int, default=5,
                         choices=(3,4,5,6,7,8,9,10,11,12,13,14),
-                        help="The number of tasks, will ignore nmin and nmax")
+                        help="The number of tasks")
     parser.add_argument("-c", type=int, default=2,
                         choices=(1,2,3,4,5),
-                        help="number of cores, will ignore min and max")
+                        help="number of cores")
     parser.add_argument("-e", type=int, default=2,
                         help="number of copy engines",
                         choices=(1,2,3,4,5))

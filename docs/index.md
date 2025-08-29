@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Welcome to RTHeter's Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Simulation platform for **runtime scheduling on heterogeneous computing architectures**.
 
-## Commands
+- Github repository: [https://github.com/EHPCL/RTHeter.git](https://github.com/EHPCL/RTHeter.git)
+- Video: [https://drive.google.com/file/d/1Od-y0OjT-ymzAAj475Tp-lAJj6Q0rcHj/view?usp=share_link](https://drive.google.com/file/d/1Od-y0OjT-ymzAAj475Tp-lAJj6Q0rcHj/view?usp=share_link)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you use *RTHeter* in your work, please cite one of the following references:
 
-## Project layout
+```tex
+@INPROCEEDINGS{ni2025rtheter,
+  author={Ni, Yinchen and Zhu, Jiace and Jin, Yier and Zou, An},
+  booktitle={2025 Design, Automation & Test in Europe Conference (DATE)}, 
+  title={RTHeter: Simulating Real-Time Scheduling of Multiple Tasks on Heterogeneous Architectures}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.23919/DATE64628.2025.10992806}}
+```
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Contributors
+
+- <a href="https://hamham223.com" target="_blank">Yinchen Ni</a>
+- Jiace Zhu
+- An Zou (Advisor)
+
