@@ -141,6 +141,9 @@ cli.set_processor_parallel_factor("CPU", 0)
 </p>
 </div>
 
+## Extensions
+
+To standardize the program interface and maintain the degree of extensibility, we implement every key component in C++ classes: `Segment`, `Task`, `Processor`, and `Simulator`. Possible extension to the existing project includes but not limits to: power / energy consumption estimations, runtime response time analyzes and detailed execution records. To achieve such extension, users are suggested to implement additional C++ classes under `src/cpp` and corresponding interfaces in `interface.cpp` and `client.py`.
 
 ## More Cases
 
