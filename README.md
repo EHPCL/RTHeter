@@ -2,7 +2,7 @@
 
 Simulation platform for **runtime scheduling on heterogeneous computing architectures**.
 
-- Documentation: [https://EHPCL.github.io/RTHeter](EHPCL.github.io/RTHeter)
+- Documentation: [https://ehpcl.github.io/RTHeter](ehpcl.github.io/RTHeter)
 - Video: [https://drive.google.com/file/d/1Od-y0OjT-ymzAAj475Tp-lAJj6Q0rcHj/view?usp=share_link](https://drive.google.com/file/d/1Od-y0OjT-ymzAAj475Tp-lAJj6Q0rcHj/view?usp=share_link)
 
 
